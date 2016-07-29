@@ -23,9 +23,9 @@ public class Company {
 
  }
  public void giveRise (int percent){
-     ceo.giveRise (percent);
-     cfo.giveRise (percent);
-     cleaner.giveRise (percent);
+     ceo.giveRise(percent);
+     cfo.giveRise(percent);
+     cleaner.giveRise(percent);
  }
  public String toString(){
      return "Company: " + ceo + ", cfo: " + cfo + ", cleaner:" + cleaner +")";

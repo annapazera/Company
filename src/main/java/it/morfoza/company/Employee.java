@@ -14,8 +14,9 @@ public class Employee {
    private String position;
 
 
-    public Employee(double v){
-       Employee Employee= new Employee (1000.0);
+
+    public Employee(double vsalary){
+            this.salary=salary;
 
     }
     public double getSalary() {
@@ -23,6 +24,8 @@ public class Employee {
     }
 
     public void giveRise(int percent) {
-        this.salary = (this.salary/100 * percent);
+        this.salary += (this.salary/100 * percent);
     }
-}
+
+    }
+
