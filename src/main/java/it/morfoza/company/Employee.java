@@ -15,7 +15,7 @@ public class Employee {
 
 
 
-    public Employee(double vsalary){
+    public Employee(double salary){
             this.salary=salary;
 
     }
@@ -26,6 +26,8 @@ public class Employee {
     public void giveRise(int percent) {
         this.salary += (this.salary/100 * percent);
     }
-
+    public String toString(){
+        return "Employee: salary: "+salary;
+    }
     }
 

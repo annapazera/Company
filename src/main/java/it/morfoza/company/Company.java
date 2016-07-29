@@ -28,6 +28,6 @@ public class Company {
      cleaner.giveRise(percent);
  }
  public String toString(){
-     return "Company: " + ceo + ", cfo: " + cfo + ", cleaner:" + cleaner +")";
+     return "Company: [ ceo: "+ ceo +", cfo: " + cfo + ", cleaner:" + cleaner +")";
  }
 }
